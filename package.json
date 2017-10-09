@@ -1,0 +1,21 @@
+{
+  "name": "browserslist-config-google",
+  "version": "1.0.0",
+  "description": "Google / G Suite Browserslist Shared Config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awkaiser/browserslist-config-google.git"
+  },
+  "keywords": [
+    "browserslist",
+    "browserslist-config",
+    "google"
+  ],
+  "author": "August \"Kai\" Kaiser <awkaiser@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awkaiser/browserslist-config-google/issues"
+  },
+  "homepage": "https://github.com/awkaiser/browserslist-config-google"
+}
