@@ -22,7 +22,6 @@ var gSuiteDesktop = [
 // "Updates to G Suite mobile apps"
 // https://support.google.com/a/answer/6288871
 var gSuiteMobile = [
-  'last 3 Android major versions',
   'last 3 ChromeAndroid major versions',
   'last 2 iOS major versions'
 ];

@@ -12,16 +12,16 @@ Share browsers list between different front-end tools, like Autoprefixer, Stylel
 
 ## Browser support
 
-You can review the current interpretation of this configuration at [browserl.ist](http://browserl.ist/?q=last+2+Chrome+major+versions%2C+last+2+Firefox+major+versions%2C+last+2+Safari+major+versions%2C+last+2+Edge+major+versions%2C+ie+11%2C+last+3+Android+major+versions%2C+last+3+ChromeAndroid+major+versions%2C+last+2+iOS+major+versions).
+You can review the current interpretation of this configuration at [browserl.ist](http://browserl.ist/?q=last+2+Chrome+major+versions%2C+last+2+Firefox+major+versions%2C+last+2+Safari+major+versions%2C+last+2+Edge+major+versions%2C+ie+11%2C+last+3+ChromeAndroid+major+versions%2C+last+2+iOS+major+versions).
 
-As of October 2017, these browsers are supported:
+As of December 2017, these browsers are supported:
 
 ### Desktop browsers [[policy](https://support.google.com/a/answer/33864)]
 
+* Chrome 62
 * Chrome 61
-* Chrome 60
+* Edge 16
 * Edge 15
-* Edge 14
 * Firefox 56
 * Firefox 55
 * IE 11
@@ -32,7 +32,6 @@ As of October 2017, these browsers are supported:
 ### Mobile [[policy](https://support.google.com/a/answer/6288871)]
 
 * Chrome for Android 61
-* Android Browser 56
 * iOS Safari 11
 * iOS Safari 10.3
 * iOS Safari 10.0-10.2
