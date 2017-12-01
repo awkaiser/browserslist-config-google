@@ -24,7 +24,7 @@ As of December 2017, these browsers are supported:
 * Edge 15
 * Firefox 56
 * Firefox 55
-* IE 11
+* IE 11 _(can be excluded via `browserslist-config-google/no-ie`)_
 * Safari 11
 * Safari 10.1
 * Safari 10
@@ -35,3 +35,57 @@ As of December 2017, these browsers are supported:
 * iOS Safari 11
 * iOS Safari 10.3
 * iOS Safari 10.0-10.2
+
+## Usage
+
+### package.json
+
+```json
+{
+  "browserslist": [
+    "extends browserslist-config-google"
+  ]
+}
+```
+
+:no_entry_sign: _Drop support for Internet Explorer 11_ :no_entry_sign:
+
+```json
+{
+  "browserslist": [
+    "extends browserslist-config-google/no-ie"
+  ]
+}
+```
+
+### .babelrc
+
+```json
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["extends browserslist-config-google"]
+      },
+      "useBuiltIns": "entry"
+    }]
+  ]
+}
+```
+
+:no_entry_sign: _Drop support for Internet Explorer 11_ :no_entry_sign:
+
+```json
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["extends browserslist-config-google/no-ie"]
+      },
+      "useBuiltIns": "entry"
+    }]
+  ]
+}
+```
+
+You can read more about `babel-polyfill` and `useBuiltIns` in the [docs for **babel-preset-env**](https://github.com/babel/babel-preset-env/blob/13ea687a49df93f0cc53cd9334c8bee38a4a59b2/README.md#browserslist-support).
