@@ -12,24 +12,18 @@ Share browsers list between different front-end tools, like Autoprefixer, Stylel
 
 ## Browser support
 
-As of December 2017, these browsers are supported by default configuration:
-
 ### Desktop browsers [[policy](https://support.google.com/a/answer/33864)]
 
-* Chrome 62
-* Edge 16
-* Edge 15
-* Firefox 57
-* Firefox 56
+* Chrome 
+* Firefox
+* Safari
+* Edge
 * IE 11 _(can be excluded via `browserslist-config-google/no-ie`)_
-* Safari 11
-* Safari 10.1
 
 ### Mobile [[policy](https://support.google.com/a/answer/6288871)]
 
-* Chrome for Android 62
-* iOS Safari 11
-* iOS Safari 10.3
+* Chrome for Android
+* iOS Safari
 
 ## Usage
 
