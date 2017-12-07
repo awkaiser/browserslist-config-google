@@ -1,6 +1,6 @@
 {
   "name": "browserslist-config-google",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Google / G Suite Browserslist Shared Config",
   "main": "index.js",
   "repository": {
