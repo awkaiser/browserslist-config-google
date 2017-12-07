@@ -2,6 +2,8 @@
 
 This configuration reflects Google's supported browser policy for their suite of web applications.
 
+[![NPM](https://nodei.co/npm/browserslist-config-google.png)](https://www.npmjs.com/package/browserslist-config-google)
+
 ## What is Browserslist?
 
 Share browsers list between different front-end tools, like Autoprefixer, Stylelint and babel-preset-env.
