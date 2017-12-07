@@ -14,7 +14,7 @@ Share browsers list between different front-end tools, like Autoprefixer, Stylel
 
 You can review the current interpretation of this configuration at [browserl.ist](http://browserl.ist/?q=last+2+Chrome+major+versions%2C+last+2+Firefox+major+versions%2C+last+2+Safari+major+versions%2C+last+2+Edge+major+versions%2C+ie+11%2C+last+3+ChromeAndroid+major+versions%2C+last+2+iOS+major+versions).
 
-As of December 2017, these browsers are supported:
+As of December 2017, these browsers are supported by default configuration:
 
 ### Desktop browsers [[policy](https://support.google.com/a/answer/33864)]
 
@@ -48,44 +48,12 @@ As of December 2017, these browsers are supported:
 }
 ```
 
-:no_entry_sign: _Drop support for Internet Explorer 11_ :no_entry_sign:
+## Alternative configuration
 
-```json
-{
-  "browserslist": [
-    "extends browserslist-config-google/no-ie"
-  ]
-}
-```
+Last `n` versions or `>= [version]`
 
-### .babelrc
-
-```json
-{
-  "presets": [
-    ["env", {
-      "targets": {
-        "browsers": ["extends browserslist-config-google"]
-      },
-      "useBuiltIns": "entry"
-    }]
-  ]
-}
-```
-
-:no_entry_sign: _Drop support for Internet Explorer 11_ :no_entry_sign:
-
-```json
-{
-  "presets": [
-    ["env", {
-      "targets": {
-        "browsers": ["extends browserslist-config-google/no-ie"]
-      },
-      "useBuiltIns": "entry"
-    }]
-  ]
-}
-```
-
-You can read more about `babel-polyfill` and `useBuiltIns` in the [docs for **babel-preset-env**](https://github.com/babel/babel-preset-env/blob/13ea687a49df93f0cc53cd9334c8bee38a4a59b2/README.md#browserslist-support).
+| Config | Chrome | Firefox | Safari | Edge | IE  | ChromeAndroid | iOS |
+| :----- | :----: | :-----: | :----: | :--: | :-: | :-----: | :-: |
+| `browserslist-config-google` | 1 | 2 | 2 | 2 | 1 | 3 | 2 |
+| `browserslist-config-google/no-ie` | 1 | 2 | 2 | 2 | 0 | 3 | 2 |
+| `browserslist-config-google/gdocs` | 2 | 2 | 2 | 2 | 2 | _>= 30_ | _>= 9_ |

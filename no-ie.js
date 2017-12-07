@@ -1,5 +1,5 @@
 var supportedBrowsers = require('./index')
 
-supportedBrowsers.splice(supportedBrowsers.indexOf('ie 11'), 1)
-
-module.exports = supportedBrowsers;
+module.exports = supportedBrowsers.filter(function (browser) {
+  return !(/ ie /i.test(browser))
+});
