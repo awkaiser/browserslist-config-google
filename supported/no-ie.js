@@ -1,7 +1,3 @@
-var browserslist = require('browserslist');
+var print = require('./helper/print')
 
-var browsers = require('../no-ie')
-
-console.log('"extends browserlist-config-google/no-ie"\n')
-console.log(browserslist(browsers).join('\n'))
-console.log('\nhttp://browserl.ist/?q=' + encodeURIComponent(browsers.join(', ')))
+print('no-ie', require('../no-ie'));

@@ -1,7 +1,3 @@
-var browserslist = require('browserslist');
+var print = require('./helper/print');
 
-var browsers = require('../index')
-
-console.log('"extends browserlist-config-google"\n')
-console.log(browserslist(browsers).join('\n'))
-console.log('\nhttp://browserl.ist/?q=' + encodeURIComponent(browsers.join(', ')))
+print(null, require('../index'));

@@ -1,7 +1,3 @@
-var browserslist = require('browserslist');
+var print = require('./helper/print')
 
-var browsers = require('../popular')
-
-console.log('"extends browserlist-config-google/popular"\n')
-console.log(browserslist(browsers).join('\n'))
-console.log('\nhttp://browserl.ist/?q=' + encodeURIComponent(browsers.join(', ')))
+print('popular', require('../popular'));
