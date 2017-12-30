@@ -26,9 +26,10 @@
     "browserslist": "^2.10.0"
   },
   "scripts": {
-    "supported": "npm run supported:default; npm run supported:gdocs; npm run supported:no-ie; npm run supported:popular",
+    "supported": "npm run supported:default; npm run supported:gdocs; npm run supported:modern; npm run supported:no-ie; npm run supported:popular",
     "supported:default": "node ./supported/index.js",
     "supported:gdocs": "node ./supported/gdocs.js",
+    "supported:modern": "node ./supported/modern.js",
     "supported:no-ie": "node ./supported/no-ie.js",
     "supported:popular": "node ./supported/popular.js"
   }
