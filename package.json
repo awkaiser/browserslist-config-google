@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/awkaiser/browserslist-config-google",
   "devDependencies": {
-    "browserslist": "^2.10.0"
+    "browserslist": "^4.8.5"
   },
   "scripts": {
     "supported": "npm run supported:default; npm run supported:gdocs; npm run supported:modern; npm run supported:no-ie; npm run supported:popular",

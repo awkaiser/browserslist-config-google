@@ -1,5 +1,3 @@
-// Last updated: December 2017
-
 module.exports = [
   'Chrome > 0',
   'Firefox > 0',

@@ -1,3 +1,3 @@
-var print = require('./helper/print')
+var print = require('./helper/print');
 
 print('popular', require('../popular'));
