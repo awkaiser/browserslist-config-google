@@ -14,7 +14,9 @@ Share browsers list between different front-end tools, like Autoprefixer, Stylel
 
 ## Browser support
 
-[Google Workspace (Calendar, Docs, Gmail, Sheets, Slides) dropped support Internet Explorer on March 15th, 2021](https://workspaceupdates.googleblog.com/2021/02/reminder-ending-support-for-ie11-for.html)
+Google Workspace dropped support for Internet Explorer on [March 15th, 2021](https://workspaceupdates.googleblog.com/2021/02/reminder-ending-support-for-ie11-for.html)
+
+(Gmail, Calendar, Meet, Chat, Drive, Docs, Sheets, Slides, Forms, Sites, [etc.](https://workspace.google.com))
 
 ### Desktop browsers [[policy](https://support.google.com/a/answer/33864)]
 
