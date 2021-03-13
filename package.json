@@ -1,20 +1,30 @@
 {
   "name": "browserslist-config-google",
-  "version": "2.0.0",
-  "description": "Google / G Suite Browserslist Shared Config",
+  "version": "3.0.0",
+  "description": "Google / Google Workspace Browserslist Shared Config",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/awkaiser/browserslist-config-google.git"
   },
   "keywords": [
-    "browserslist",
     "browserslist-config",
+    "browserslist",
     "google",
-    "gsuite",
     "babel-preset-env",
+    "babel",
+    "chrome",
+    "safari",
+    "edge",
+    "firefox",
+    "workspace",
+    "gsuite",
     "autoprefixer",
-    "stylelint"
+    "stylelint",
+    "browser",
+    "apple",
+    "mozilla",
+    "microsoft"
   ],
   "author": "August \"Kai\" Kaiser <awkaiser@users.noreply.github.com>",
   "license": "MIT",
@@ -22,15 +32,13 @@
     "url": "https://github.com/awkaiser/browserslist-config-google/issues"
   },
   "homepage": "https://github.com/awkaiser/browserslist-config-google",
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
-    "browserslist": "^4.8.5"
+    "browserslist": "^4.16.3"
   },
   "scripts": {
-    "supported": "npm run supported:default; npm run supported:gdocs; npm run supported:modern; npm run supported:no-ie; npm run supported:popular",
-    "supported:default": "node ./supported/index.js",
-    "supported:gdocs": "node ./supported/gdocs.js",
-    "supported:modern": "node ./supported/modern.js",
-    "supported:no-ie": "node ./supported/no-ie.js",
-    "supported:popular": "node ./supported/popular.js"
+    "supported": "node -e \"var bl = require('browserslist'); console.log(bl(require('./index')).join('\\n'));\""
   }
 }

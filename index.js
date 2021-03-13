@@ -1,25 +1,26 @@
-// Google browser support policies last checked: January 2020
+// Google browser support policies last checked: March 2021
 
 // NOTE: CanIUse doesn't maintain data on older versions of ChromeAndroid
-//       However, in recent years, Google aims to preserve feature parity with desktop Chrome
+//       However, in recent years, Google aims to preserve feature parity
+//       with desktop Chrome
 
-// "Supported browsers for G Suite"
+// "Supported browsers for Google Workspace"
 // https://support.google.com/a/answer/33864
-var gSuiteDesktop = [
-  'last 3 Chrome major versions', // Coverage for desktop & mobile Chrome
+var desktop = [
+  'last 1 Chrome major versions',
   'last 2 Firefox major versions',
   'last 2 Safari major versions',
   'last 2 Edge major versions',
-  'last 1 IE major versions' // https://www.microsoft.com/en-us/windowsforbusiness/end-of-ie-support
 ];
 
-// "Updates to G Suite mobile apps"
+// "Updates to Google Workspace mobile apps"
 // https://support.google.com/a/answer/6288871
-var gSuiteMobile = [
+var mobile = [
+  'last 3 Android major versions',
   'last 3 ChromeAndroid major versions',
-  'last 2 iOS major versions'
+  'last 2 iOS major versions',
 ];
 
-var supportedBrowsers = gSuiteDesktop.concat(gSuiteMobile);
+var supportedBrowsers = desktop.concat(mobile);
 
 module.exports = supportedBrowsers;
