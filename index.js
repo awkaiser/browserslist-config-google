@@ -1,4 +1,4 @@
-// Google browser support policies last checked: March 2021
+// Google browser support policies last checked: May 2024
 
 // NOTE: CanIUse doesn't maintain data on older versions of ChromeAndroid
 //       However, in recent years, Google aims to preserve feature parity
