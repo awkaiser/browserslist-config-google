@@ -36,7 +36,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "browserslist": "^4.23.0"
+    "browserslist": "^4.24.3"
   },
   "scripts": {
     "supported": "node -e \"var bl = require('browserslist'); console.log(bl(require('./index')).join('\\n'));\""
